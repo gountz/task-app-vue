@@ -1,0 +1,69 @@
+.input-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 600px;
+    position: relative;
+}
+
+.input-form{
+    border-radius: 8px;
+    border: none;
+    border: 1px solid rgb(98, 98, 98);
+    outline: none;
+    font-size: 20px;
+    padding-left: 8px;
+    height: 50px;
+    width: 400px;
+}
+
+.input-form:focus{
+    border: 2px solid #00369a;
+}
+
+.btn{
+    background: #048eff;
+    border: 0;
+    border-radius: 15px;
+    cursor: pointer;
+    color: #ffff;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px 25px;
+}
+
+.btn:hover{
+    background: #0019b8;
+}
+
+.btn-input{
+    border: 0;
+    background: 0;
+    cursor: pointer;
+    position: absolute;
+}
+
+.bx{
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.btn-check{
+    color: #00cd14;
+    top: 12px;
+    right: 150px;
+}
+
+.btn-check:hover{
+    opacity: .5;
+}
+
+.btn-input-delete{
+    color: #cf0202;
+    top: 13px;
+    right: 110px;
+}
+
+.btn-input-delete:hover{
+    opacity: .5;
+}

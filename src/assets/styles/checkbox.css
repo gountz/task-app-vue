@@ -1,0 +1,20 @@
+.input-checkbox{
+    margin-left: 35px;
+}
+
+input[type=checkbox]
+{
+  /* Doble-tamaño Checkboxes */
+  -ms-transform: scale(1.5); /* IE */
+  -moz-transform: scale(1.5); /* FF */
+  -webkit-transform: scale(1.5); /* Safari y Chrome */
+  -o-transform: scale(1.5); /* Opera */
+  padding: 10px;
+}
+
+/* Tal vez desee envolver un espacio alrededor de su texto de casilla de verificación */
+.checkboxtexto
+{
+  /* Checkbox texto */
+  display: inline;
+}
